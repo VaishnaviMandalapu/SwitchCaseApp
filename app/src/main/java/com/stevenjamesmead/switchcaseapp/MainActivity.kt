@@ -39,7 +39,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Welcome Android")
+                    Greeting("Welcome AAAAndroid")
                 }
             }
         }
@@ -114,6 +114,6 @@ fun SwitchCaseText(
 @Composable
 fun GreetingPreview() {
     SwitchCaseAppTheme {
-        Greeting("Android")
+        Greeting("ios")
     }
 }
